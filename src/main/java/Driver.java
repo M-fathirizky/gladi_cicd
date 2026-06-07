@@ -13,7 +13,16 @@ public class Driver {
 		counter.decrement();
 		
 		System.out.println("Hasil Count:" + counter.getCount());
-		
+		counter.increment();
+		System.out.println("Hasil Count:" + counter.getCount());
+		System.out.println("Hasil Count:" + counter.getCount());
+		System.out.println("Hasil Count:" + counter.getCount());
+		System.out.println("Hasil Count:" + counter.getCount());
+		System.out.println("Hasil Count:" + counter.getCount());
+		System.out.println("Hasil Count:" + counter.getCount());
+		System.out.println("Hasil Count:" + counter.getCount());
+		System.out.println("Hasil Count:" + counter.getCount());
+		System.out.println("Hasil Count:" + counter.getCount());
 	}
 
 }

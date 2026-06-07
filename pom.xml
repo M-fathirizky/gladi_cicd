@@ -21,8 +21,9 @@
   </distributionManagement>
   
   <properties>
-     <maven.compiler.source>1.8</maven.compiler.source>
-     <maven.compiler.target>1.8</maven.compiler.target>
- </properties>
+    <maven.compiler.release>21</maven.compiler.release>
+    <sonar.organization>fathirizky</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
   
 </project>

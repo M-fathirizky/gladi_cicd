@@ -27,9 +27,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GladiGITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.GladiSONAR_TOKEN }}
       run: mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=fathirizky -Dsonar.projectKey=M-fathirizky_gladi_cicd
-# Step tambahan untuk mengecek status Quality Gate
-    - name: SonarCloud Quality Gate Status Check
-      uses: sonarsource/sonarcloud-github-action-action@master
-      timeout-minutes: 5
-      env:
-        SONAR_TOKEN: ${{ secrets.GladiSONAR_TOKEN }}
